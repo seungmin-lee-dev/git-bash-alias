@@ -79,6 +79,14 @@ alias n='npm run dev'
 alias rn='rm -r .next/'
 alias rnn='rm -r node_modules/'
 
+# gradle / spring alias (Gradle / Spring エイリアス)
+alias gw='./gradlew'
+alias gwr='./gradlew bootRun'   # ブート実行
+alias gwb='./gradlew build'    # ビルド
+alias gwt='./gradlew test'     # テスト
+alias gwc='./gradlew clean'    # クリーン
+alias gwcb='./gradlew clean build'  # クリーンビルド
+
 # venv alias
 alias "venvr"='source venv/Scripts/activate'
 alias "venvd"='deactivate'
