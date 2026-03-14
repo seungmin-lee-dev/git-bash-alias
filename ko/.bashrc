@@ -64,9 +64,9 @@ alias grbd='git rebase develop'       # develop에 리베이스
 alias grbb='git branch backup-before-rebase'  # 리베이스 전 백업
 
 # ccusage alias
-alias cu='ccusage daily'                    # 일일 사용량 조회
-alias cum='ccusage monthly'                  # 월간 사용량 조회
-alias cub='ccusage blocks --live'            # 블록 사용량 조회
+alias ccd='ccusage daily'                    # 일일 사용량 조회
+alias ccm='ccusage monthly'                  # 월간 사용량 조회
+alias ccb='ccusage blocks --live'            # 블록 사용량 조회
 
 # npm alias
 alias ni='npm install'          # 패키지 설치
